@@ -1,7 +1,25 @@
 import React from 'react';
 import Logo from './Logo';
+import NavLink from '../buttons/NavLink';
 
 const Navbar = () => {
+     const nav = <>
+    <li>
+        <NavLink href={"/"}>Home</NavLink>
+    </li>
+    <li>
+        <NavLink href={"/products"}>Services</NavLink>
+    </li>
+    <li>
+        <NavLink href={"/about"}>About</NavLink>
+    </li>
+    <li>
+        <NavLink href={"/blog"}>Blog</NavLink>
+    </li>
+    <li>
+        <NavLink href={"/contact"}>Contact</NavLink>
+    </li>
+    </>
     return (
         <div>
             <div className="navbar bg-base-100">

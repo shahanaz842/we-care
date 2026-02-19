@@ -4,13 +4,17 @@ import React from 'react';
 
 const Logo = () => {
     return (
-        <Link href={"/"} className='flex items-center gap-1'>
+        <Link href={"/"} className='flex items-center gap-2 group transition-opacity hover:opacity-90'>
             <Image 
-            alt='logo-hero-kidz' 
-            src={"/asset/care-logo.png"} 
-            width={40} 
-            height={40}/>
-            <h2 className='text-xl font-bold'>We <span className='text-primary'>Care</span></h2>
+                alt='We Care Logo' 
+                src={"/asset/care-logo.png"} 
+                width={40} 
+                height={40}
+                className="object-contain" // Ensures the logo doesn't stretch
+            />
+            <h2 className='text-2xl font-bold tracking-tight text-neutral'>
+                We <span className='text-primary'>Care</span>
+            </h2>
         </Link>
     );
 };
