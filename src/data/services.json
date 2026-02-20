@@ -1,0 +1,164 @@
+[
+    {
+        "slug": "baby-care",
+        "title": "Baby Care Service",
+        "badge": "Most Requested",
+        "shortDescription": "Professional and loving caregivers for newborns, toddlers, and young children at your home.",
+        "fullDescription": "Our Baby Care Service provides trained and background-verified caregivers who ensure your child’s safety, hygiene, and emotional well-being. Whether you need part-time babysitting or full-time nanny support, we provide trusted care tailored to your family's needs.",
+        "features": [
+            "Verified and trained caregivers",
+            "Background checked staff",
+            "Emergency response trained",
+            "Daily activity reporting",
+            "Flexible scheduling"
+        ],
+        "servicesIncluded": [
+            "Feeding and meal preparation",
+            "Bathing and hygiene care",
+            "Diaper changing",
+            "Playtime and early learning activities",
+            "Sleep supervision",
+            "School pick-up/drop-off (optional)"
+        ],
+        "idealFor": [
+            "Working parents",
+            "Newborn care support",
+            "Part-time babysitting",
+            "Weekend or emergency care"
+        ],
+        "pricingStartingFrom": 15,
+        "currency": "USD",
+        "durationOptions": [
+            "Hourly",
+            "Half-Day",
+            "Full-Day",
+            "Monthly"
+        ],
+        "availability": "24/7 Available",
+        "rating": 4.8,
+        "reviewCount": 124,
+        "image": "https://i.ibb.co.com/F4wDS5zD/baby-care.jpg",
+        "image2": "https://i.ibb.co.com/gLgNcwY0/baby-care2.jpg",
+        "image3": "https://i.ibb.co.com/Q7nT0NWY/baby-care3.jpg",
+        "image4": "https://i.ibb.co.com/WvRCfCsx/baby-care4.jpg",
+        "icon": "baby",
+        "faqs": [
+            {
+                "question": "Are caregivers background verified?",
+                "answer": "Yes, all caregivers undergo identity verification and background checks."
+            },
+            {
+                "question": "Can I book emergency babysitting?",
+                "answer": "Yes, subject to caregiver availability in your area."
+            }
+        ]
+    },
+    {
+        "slug": "elderly-care",
+        "title": "Elderly Care Service",
+        "badge": "Trusted Care",
+        "shortDescription": "Compassionate and respectful in-home support for seniors and aging family members.",
+        "fullDescription": "Our Elderly Care Service ensures that seniors receive professional assistance while maintaining their dignity and independence. From daily living support to companionship, we provide personalized home care solutions.",
+        "features": [
+            "Experienced senior caregivers",
+            "Medical support assistance",
+            "Medication reminders",
+            "Mobility assistance",
+            "Companionship support"
+        ],
+        "servicesIncluded": [
+            "Personal hygiene assistance",
+            "Meal preparation",
+            "Medication reminders",
+            "Light housekeeping",
+            "Doctor appointment assistance",
+            "Emotional companionship"
+        ],
+        "idealFor": [
+            "Aging parents",
+            "Post-hospital recovery",
+            "Mobility support needs",
+            "Long-term elderly care"
+        ],
+        "pricingStartingFrom": 18,
+        "currency": "USD",
+        "durationOptions": [
+            "Hourly",
+            "Daily",
+            "Full-Time",
+            "Live-In"
+        ],
+        "availability": "24/7 Available",
+        "rating": 4.9,
+        "reviewCount": 210,
+        "image": "https://i.ibb.co.com/Vc9rp5Gh/elderly-care.jpg",
+        "image2": "https://i.ibb.co.com/yn25zQvH/elderly-care2.jpg",
+        "image3": "https://i.ibb.co.com/mVcM40Fm/elderly-care3.jpg",
+        "image4": "https://i.ibb.co.com/359g97jX/elderly-care4.jpg",
+        "icon": "elderly",
+        "faqs": [
+            {
+                "question": "Do caregivers assist with medication?",
+                "answer": "Yes, they provide reminders and assistance as prescribed."
+            },
+            {
+                "question": "Is live-in care available?",
+                "answer": "Yes, we offer both short-term and long-term live-in care."
+            }
+        ]
+    },
+    {
+        "slug": "sick-care",
+        "title": "Sick & Home Patient Care",
+        "badge": "Professional Support",
+        "shortDescription": "Certified caregivers for patients recovering from illness, surgery, or requiring home medical support.",
+        "fullDescription": "Our Sick Care Service provides trained caregivers and attendants to assist patients recovering at home. We ensure comfort, hygiene, and proper support under family supervision and medical guidance.",
+        "features": [
+            "Trained patient attendants",
+            "Post-surgery care support",
+            "Bedridden patient care",
+            "Hygiene and sanitation focus",
+            "24-hour monitoring option"
+        ],
+        "servicesIncluded": [
+            "Personal hygiene care",
+            "Mobility support",
+            "Vital sign monitoring",
+            "Feeding assistance",
+            "Post-operative care",
+            "Hospital-to-home transition support"
+        ],
+        "idealFor": [
+            "Post-surgery recovery",
+            "Chronic illness patients",
+            "Bedridden individuals",
+            "Short-term recovery needs"
+        ],
+        "pricingStartingFrom": 20,
+        "currency": "USD",
+        "durationOptions": [
+            "Hourly",
+            "Daily",
+            "Night Shift",
+            "Full-Time"
+        ],
+        "availability": "24/7 Available",
+        "rating": 4.7,
+        "reviewCount": 98,
+        "image": "https://i.ibb.co.com/fYCprzRR/health-care.jpg",
+        "image2": "https://i.ibb.co.com/TDjwLn1B/health-care2.jpg",
+        "image3": "https://i.ibb.co.com/HTX19139/health-care3.jpg",
+        "image4": "https://i.ibb.co.com/4nt5dr7d/health-care4.jpg",
+        "icon": "medical",
+        "faqs": [
+            {
+                "question": "Are caregivers medically trained?",
+                "answer": "Yes, caregivers receive patient-care training and emergency response guidance."
+            },
+            {
+                "question": "Can I book short-term care?",
+                "answer": "Yes, both short-term and long-term care options are available."
+            }
+        ]
+    }
+]
