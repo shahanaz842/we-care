@@ -3,6 +3,11 @@ import React from 'react';
 // import services from "@/data/services.json";
 import { getServices } from '@/actions/server/service';
 
+export const metadata = {
+  title: "All Services",
+  description: "Secure and accessible care for children, elderly, and family members.",
+};
+
 const ServicesPage = async () => {
     const services = (await getServices()) || [];
     return (

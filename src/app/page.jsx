@@ -20,7 +20,7 @@ export default function Home() {
       <section>
         <ServicesOverview></ServicesOverview>
       </section>
-      <section>
+      <section className="md:w-11/12 mx-auto">
         <SuccessAndTestimonials></SuccessAndTestimonials>
       </section>
 

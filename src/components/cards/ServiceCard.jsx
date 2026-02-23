@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const ServiceCard = ({ service }) => {
+  console.log(service._id)
   return (
     <div className="group bg-white rounded-[2.5rem] border border-base-200 overflow-hidden shadow-sm hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 flex flex-col h-full">
       
@@ -67,7 +68,7 @@ const ServiceCard = ({ service }) => {
           </div>
 
           <Link 
-            href={`/services/${service.slug}`}
+            href={`/services/${service._id}`}
             className="bg-base-200 hover:bg-primary hover:text-white text-neutral p-4 rounded-2xl transition-all group/btn"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-6 h-6 transition-transform group-hover/btn:translate-x-1">

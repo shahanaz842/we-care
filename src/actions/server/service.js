@@ -10,11 +10,20 @@ export const getServices = async () => {
 }
 
 export const getSingleService = async (id) => {
-    if (id.length != 24) {
-        return {};
+   if (!id || typeof id !== 'string' || id.length !== 24) {
+        return null; // Return null instead of empty object for easier checking
     }
-    const query = { _id: new ObjectId(id) };
+    
+    try {
+        const query = { _id: new ObjectId(id) };
+        const service = await dbConnect(collections.SERVICES).findOne(query);
+        
+        if (!service) return null;
 
-    const service = await dbConnect(collections.SERVICES).findOne(query);
-    return { ...service, _id: service._id.toString() } || {};
+        
+        return { ...service, _id: service._id.toString() };
+    } catch (error) {
+        console.error("Database Error:", error);
+        return null;
+    }
 }

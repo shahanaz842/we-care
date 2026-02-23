@@ -12,7 +12,7 @@ const Logo = () => {
                 height={40}
                 className="object-contain" // Ensures the logo doesn't stretch
             />
-            <h2 className='text-2xl font-bold tracking-tight text-neutral'>
+            <h2 className='hidden md:block text-2xl font-bold tracking-tight text-neutral'>
                 We <span className='text-primary'>Care</span>
             </h2>
         </Link>

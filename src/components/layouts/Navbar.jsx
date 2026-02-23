@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         /* The Wrapper: sticky, top-0, and high z-index is key */
-        <div className="sticky top-0 z-50 w-full border-b border-base-200 bg-white/70 backdrop-blur-md">
+        <div className="sticky top-0 z-50 w-full border-b border-base-200 bg-white/70 backdrop-blur-md py-2">
             <div className="navbar max-w-7xl mx-auto px-4 md:px-6">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -42,7 +42,7 @@ const Navbar = () => {
                     <Link href={"/login"} className="hidden sm:flex text-neutral font-bold hover:text-primary transition-colors px-4">
                         Login
                     </Link>
-                    <Link href={"/register"} className="btn btn-primary rounded-2xl px-8 shadow-lg shadow-primary/20 border-none text-white">
+                    <Link href={"/register"} className="btn btn-primary rounded-2xl px-3 md:px-8 shadow-lg shadow-primary/20 border-none text-white">
                         Join Now
                     </Link>
                 </div>
